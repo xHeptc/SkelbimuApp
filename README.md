@@ -9,11 +9,11 @@
 
 # Accounts
 
-ADMIN
+ADMIN  
 email: mantasadmin@gmail.com  
 password: admin123  
 
-USER
+USER  
 email: mingailerem@gmail.com  
 password: user123  
 
