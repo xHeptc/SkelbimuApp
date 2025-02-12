@@ -10,12 +10,12 @@
 # Accounts
 
 ADMIN
-email: mantasadmin@gmail.com
-password: admin123
+email: mantasadmin@gmail.com  
+password: admin123  
 
 USER
-email: mingailerem@gmail.com
-password: user123
+email: mingailerem@gmail.com  
+password: user123  
 
 Extensions:
 
