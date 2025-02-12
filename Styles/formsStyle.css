@@ -1,0 +1,237 @@
+.forms {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+form.formStyle {
+    display: flex;
+    position: relative;
+    max-width: 375px;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form.formStyle .title {
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+form.formStyle .details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+form.formStyle .detail {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+form.formStyle .detail label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+form.formStyle .detail input {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(199, 199, 199);
+    padding-left: 12px;
+    transition: all 0.2s ease;
+}
+
+form.formStyle .detail input:invalid.interacted {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+form.formStyle .detail input:focus {
+    border: 1px solid rgb(146, 146, 146);
+}
+
+form.formStyle .details button {
+    width: 100%;
+    height: 34px;
+    border: none;
+    background-color: rgb(90, 134, 255);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all 0.2s ease;
+}
+
+form.formStyle .details button:hover {
+    background-color: rgb(84, 113, 192);
+}
+
+form.formStyle span {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+form.formStyle span a {
+    color: rgb(57, 84, 158);
+}
+
+form.formStyle .message {
+    display: none;
+    z-index: 10;
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+form.formStyle .message.success {
+    display: block;
+    background-color: rgb(208, 239, 204);
+    color: rgb(1, 139, 54);
+}
+
+form.formStyle .message.error {
+    display: block;
+    background-color: rgb(2253, 201, 201);
+    color: rgb(1219, 37, 37);
+}
+
+form.formStyle1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form.formStyle1 .top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formStyle1 .top .title {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 5px 20px;
+}
+
+.formStyle1 .top .close {
+    margin: 20px;
+    aspect-ratio: 1;
+    width: 20px;
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+.formStyle1 .details {
+    display: flex;
+}
+
+.formStyle1 .details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 20px 20px 20px;
+}
+
+.formStyle1 .detail {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.formStyle1 .detail label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.formStyle1 .detail input {
+    position: relative;
+    width: calc(100% - 1px);
+    height: 30px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(199, 199, 199);
+    padding-left: 12px;
+    transition: all 0.2s ease;
+}
+
+.formStyle1 .detail textarea {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    padding-top: 5px;
+    height: calc(1.85rem * 3);
+    width: calc(100% - 1px);
+    resize: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(199, 199, 199);
+    padding-left: 12px;
+    transition: all 0.2s ease;
+}
+
+.formStyle1 .detail input:invalid.interacted {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.formStyle1 .detail input:focus {
+    border: 1px solid rgb(146, 146, 146);
+}
+
+.formStyle1 .detail textarea:invalid.interacted {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.formStyle1 .detail textarea:focus {
+    border: 1px solid rgb(146, 146, 146);
+}
+
+.formStyle1 .details button {
+    width: 100%;
+    height: 34px;
+    border: none;
+    background-color: rgb(90, 134, 255);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all 0.2s ease;
+}
+
+.formStyle1 .details button:hover {
+    background-color: rgb(84, 113, 192);
+}
+
+.formStyle1 span {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.formStyle1 span a {
+    color: rgb(57, 84, 158);
+}
